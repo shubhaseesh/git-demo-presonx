@@ -1,7 +1,7 @@
 import React from "react";
 
-const Input = (Props) => {
-  const { type, name, onChange, inputClass, placeholder, pattern } = Props;
+const Input = (props) => {
+  const { type, name, onChange, inputClass, placeholder, pattern } = props;
   return (
     <input
       pattern={pattern}
